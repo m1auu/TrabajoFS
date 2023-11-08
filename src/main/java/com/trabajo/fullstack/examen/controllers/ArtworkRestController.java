@@ -15,12 +15,10 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import com.trabajo.fullstack.examen.model.ArtworkDTO;
 import com.trabajo.fullstack.examen.services.ArtworkService;
 
-public class ArtworkRestController {
-
 @RestController
 @RequestMapping("/artworks")
-public class BookRestController {
-	
+public class ArtworkRestController {
+
 	@Autowired //Inyeccion de dependencia
 	ArtworkService artworkService;
 	
@@ -45,5 +43,5 @@ public class BookRestController {
 	}
 	
 
-	}
+	
 }
